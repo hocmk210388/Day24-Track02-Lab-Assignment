@@ -1,0 +1,35 @@
+# Raw data (chứa PII gốc - KHÔNG nộp)
+data/raw/
+
+# Vault key (credential - KHÔNG nộp)
+.vault_key
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+
+# Environment
+.env
+*.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Credentials / secrets
+credentials.json
+*.pem
+*.key
